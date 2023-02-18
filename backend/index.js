@@ -4,9 +4,12 @@ const {connection}=require("./config/db")
 const {userRouter}=require("./routes/user.routes")
 const {noteRouter}=require("./routes/note.routes")
 const {authenticate}=require("./middilewares/authenticate.middileware")
+const cors = require("cors")
 require("dotenv").config()
+
 app.use(express.json())
 
+app.use(cors())
 app.get("/",(req,res)=>{
     res.send("Home page")
 })

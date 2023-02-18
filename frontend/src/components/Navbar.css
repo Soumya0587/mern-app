@@ -1,6 +1,6 @@
 .navbar {
     display: flex;
     justify-content: space-evenly;
-    border: solid red;
+    border: 3px dotted goldenrod;
     padding: 15px;
   }
