@@ -1,0 +1,6 @@
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    border: solid red;
+    padding: 15px;
+  }
